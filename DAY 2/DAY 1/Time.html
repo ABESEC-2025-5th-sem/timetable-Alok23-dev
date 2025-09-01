@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #000;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 12px;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    .vertical-text {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      white-space: nowrap;
+      padding: 20px 5px;
+      line-height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Weekly Class Schedule</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>DAY</th>
+        <th>8:50-9:40<br>L1</th>
+        <th>9:40-10:30<br>L2</th>
+        <th rowspan="6" class="vertical-text">B R E A K</th>
+        <th>10:40-11:30<br>L3</th>
+        <th>11:30-12:20<br>L4</th>
+        <th rowspan="6" class="vertical-text">L U N C H</th>
+        <th>1:10-2:00<br>L5</th>
+        <th>2:00-2:50<br>L6</th>
+        <th>2:50-3:40<br>L7</th>
+        <th>3:40-4:30<br>L8</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Mon</th>
+        <td>DAA-BCS503-<br>(MP)</td>
+        <td>DBMS-BCS501-<br>(DA)</td>
+        <td>AOSC-BCS056-<br>(Shreya)</td>
+        <td>OOSD-BCS054-<br>(VK)</td>
+        <td>FSD Training Ms Rohini</td>
+        <td colspan="2"></td>
+        <td>DA-BCDS501-<br>(MS)</td>
+        <td>DA LAB-BCDS551-<br>(MS)(VK)</td>
+      </tr>
+      <tr>
+        <th>Tue</th>
+        <td colspan="2">DA-BCDS501-(MS)<br>DAA-BCS503-(MP)</td>
+        <td>CSE(DS)-C ||SS<br>(Dr. Abrity Thakur)</td>
+        <td>DBMS-BCS501-<br>(DA)</td>
+        <td>OOSD-BCS054-<br>(VK)</td>
+        <td colspan="2">DSA Training- Ms. Priyanka Gpta</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Wed</th>
+        <td colspan="2">CSE(DS)-C || QA/LR<br>(Harshit Sharma)</td>
+        <td colspan="2">Domain Training: DSAIML-LT305<br>Cloud-LT307<br>Networking and Cyber Security-LT308</td>
+        <td>AOSC-BCS056-<br>(Shreya)</td>
+        <td>DAA-BCS503-<br>(MP)</td>
+        <td colspan="2">DBMS LAB-BCS551-<br>(YB)(DD)</td>
+      </tr>
+      <tr>
+        <th>Thu</th>
+        <td colspan="2">DAA LAB-BCS553-<br>(SL)|(DD)</td>
+        <td colspan="2">CSE(DS)-C || VA(LD)</td>
+        <td>DA-BCDS501-<br>(MS)</td>
+        <td colspan="2">FSD Training Ms Rohini</td>
+        <td>DBMS-BCS501-<br>(DA)</td>
+      </tr>
+      <tr>
+        <th>Fri</th>
+        <td colspan="2">DSA Training- Ms. Priyanka Gpta</td>
+        <td colspan="2">DSA Training- Ms. Priyanka Gpta</td>
+        <td>DA-BCDS501-<br>(MS)</td>
+        <td>DAA-BCS503-<br>(MP)</td>
+        <td>DBMS-BCS501-<br>(DA)</td>
+        <td>OOSD-BCS054-<br>(VK)</td>
+        <td>AOSC-BCS056-<br>(Shreya)</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
