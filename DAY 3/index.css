@@ -1,0 +1,29 @@
+#container-box{
+    display:flex;
+    width: 600px;
+    height: 150px;
+    border: 2px solid brown;
+    background-color: bisque;
+    flex-direction: row;
+
+
+}
+.box{
+    width: 25%;
+    height: auto;
+    border: 1px solid burlywood;
+}
+
+.box:nth-child(1),
+ .box:nth-child(3){
+    background-color: bisque;
+    
+}
+.box:nth-child(2),
+ .box:nth-child(4){
+    background-color: chocolate;
+}
+ img{
+    width: 100%;
+    height: 80%;
+}
