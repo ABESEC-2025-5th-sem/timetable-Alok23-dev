@@ -1,0 +1,1 @@
+const num1 = document.getElementById('num1');
